@@ -1,4 +1,4 @@
-# Custom project from Hilla
+# spring-boot-react-hilla-crm
 
 This project can be used as a starting point to create your own Hilla application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
@@ -6,8 +6,13 @@ It contains all the necessary configuration and some placeholder files to get yo
 ## Running the application
 
 The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
-http://localhost:8080 in your browser.
+
+```shell
+mvn clean package
+mvn clean spring-boot:run
+```
+
+then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 You can also import the project to your IDE of choice as you would with any
 Maven project.

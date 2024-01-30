@@ -1,4 +1,4 @@
-package com.example.application.data;
+package com.ashu.practice.data;
 
 import jakarta.annotation.Nullable;
 import jakarta.persistence.Entity;
